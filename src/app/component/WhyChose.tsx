@@ -26,7 +26,12 @@ const WhyChooseSEOPartner = () => {
           <div className="flex justify-center gap-8 mb-4">
             {/* Local Expertise Hexagon */}
             <div className="relative">
-              <div className="hexagon bg-gray-50 border-2 border-gray-200 p-6 w-64 h-56 flex flex-col items-center justify-center text-center">
+              <div
+                className="bg-gray-50 border-2 border-gray-200 p-6 w-64 h-56 flex flex-col items-center justify-center text-center"
+                style={{
+                  clipPath: "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)",
+                }}
+              >
                 <div className="bg-red-100 w-12 h-12 rounded-full flex items-center justify-center mb-3">
                   <MapPin className="w-6 h-6 text-red-500" />
                 </div>
@@ -40,7 +45,12 @@ const WhyChooseSEOPartner = () => {
 
             {/* Proven Track Record Hexagon */}
             <div className="relative">
-              <div className="hexagon bg-gray-50 border-2 border-gray-200 p-6 w-64 h-56 flex flex-col items-center justify-center text-center">
+              <div
+                className="bg-gray-50 border-2 border-gray-200 p-6 w-64 h-56 flex flex-col items-center justify-center text-center"
+                style={{
+                  clipPath: "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)",
+                }}
+              >
                 <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mb-3">
                   <TrendingUp className="w-6 h-6 text-blue-500" />
                 </div>
@@ -57,7 +67,12 @@ const WhyChooseSEOPartner = () => {
           <div className="flex justify-center gap-8 mb-4">
             {/* Transparent Reporting Hexagon */}
             <div className="relative">
-              <div className="hexagon bg-gray-50 border-2 border-gray-200 p-6 w-64 h-56 flex flex-col items-center justify-center text-center">
+              <div
+                className="bg-gray-50 border-2 border-gray-200 p-6 w-64 h-56 flex flex-col items-center justify-center text-center"
+                style={{
+                  clipPath: "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)",
+                }}
+              >
                 <div className="bg-purple-100 w-12 h-12 rounded-full flex items-center justify-center mb-3">
                   <Search className="w-6 h-6 text-purple-500" />
                 </div>
@@ -71,7 +86,12 @@ const WhyChooseSEOPartner = () => {
 
             {/* Customized SEO Hexagon */}
             <div className="relative">
-              <div className="hexagon bg-gray-50 border-2 border-gray-200 p-6 w-64 h-56 flex flex-col items-center justify-center text-center">
+              <div
+                className="bg-gray-50 border-2 border-gray-200 p-6 w-64 h-56 flex flex-col items-center justify-center text-center"
+                style={{
+                  clipPath: "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)",
+                }}
+              >
                 <div className="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mb-3">
                   <Target className="w-6 h-6 text-green-500" />
                 </div>
@@ -88,7 +108,12 @@ const WhyChooseSEOPartner = () => {
           <div className="flex justify-center gap-8">
             {/* Dedicated Team Hexagon */}
             <div className="relative">
-              <div className="hexagon bg-gray-50 border-2 border-gray-200 p-6 w-64 h-56 flex flex-col items-center justify-center text-center">
+              <div
+                className="bg-gray-50 border-2 border-gray-200 p-6 w-64 h-56 flex flex-col items-center justify-center text-center"
+                style={{
+                  clipPath: "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)",
+                }}
+              >
                 <div className="bg-orange-100 w-12 h-12 rounded-full flex items-center justify-center mb-3">
                   <Users className="w-6 h-6 text-orange-500" />
                 </div>
@@ -102,7 +127,12 @@ const WhyChooseSEOPartner = () => {
 
             {/* CTA Hexagon */}
             <div className="relative">
-              <div className="hexagon bg-blue-600 border-2 border-blue-600 p-6 w-64 h-56 flex flex-col items-center justify-center text-center text-white">
+              <div
+                className="bg-blue-600 border-2 border-blue-600 p-6 w-64 h-56 flex flex-col items-center justify-center text-center text-white"
+                style={{
+                  clipPath: "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)",
+                }}
+              >
                 <h3 className="text-sm font-bold mb-4">Partner with us and dominate search rankings in Dubai!</h3>
                 <button className="bg-white text-blue-600 px-4 py-2 rounded text-xs font-semibold hover:bg-gray-100 transition-colors">
                   Get Your Free SEO Audit
@@ -112,12 +142,6 @@ const WhyChooseSEOPartner = () => {
           </div>
         </div>
       </div>
-
-      <style jsx>{`
-        .hexagon {
-          clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-        }
-      `}</style>
     </div>
   )
 }
