@@ -20,7 +20,7 @@ export default function Home() {
  <OurComprensive/>
  <OurClients/>
  <SocialMedia/>
- {/* <Location/> */}
+ <Location/>
  <OrangeCard/>
  <LastComponent/>
  </>

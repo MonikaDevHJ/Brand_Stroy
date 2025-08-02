@@ -1,6 +1,6 @@
 import type React from "react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "../lib/utils"
 
 interface CardProps {
   children: React.ReactNode
@@ -52,11 +52,11 @@ function CardAction({ className, ...props }: React.ComponentProps<"div">) {
 }
 
 export const CardContent: React.FC<CardContentProps> = ({ children, className = "" }) => {
-  return <div className={className}>{children}</div>
+  return <div className={cn("px-6 py-4", className)}>{children}</div>
 }
 
 function CardFooter({ className, ...props }: React.ComponentProps<"div">) {
   return <div data-slot="card-footer" className={cn("flex items-center px-6 [.border-t]:pt-6", className)} {...props} />
 }
 
-export { Card, CardHeader, CardFooter, CardTitle, CardAction }
+export { Card, CardHeader, CardFooter, CardTitle, CardAction, CardDescription }
